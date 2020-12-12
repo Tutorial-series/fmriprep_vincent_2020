@@ -2,8 +2,8 @@
 ------
 The fmriprep tutorial for COSN @2020 by Qing Wang (Vincent).
 ## Commands for building fMRIPrep containers
-sudo docker pull poldracklab/fmriprep:latest
-sudo singularity build fmriprep_latest.simg docker://poldracklab/fmriprep:latest
+```sudo docker pull poldracklab/fmriprep:latest```
+```sudo singularity build fmriprep_latest.simg docker://poldracklab/fmriprep:latest```
 ## Running fMRIPrep on local machine
 ### Docker
 sudo docker run -it
@@ -25,4 +25,4 @@ Scripts for running fMRIPrep in parallel.
 ### fmriprep.format
 Collect the results.
 ### select_ses-2.json
-Select specific input data (sessions 2 here for both T1 and bold images).
+Select specific input data (session 2 here for both T1 and bold images).
